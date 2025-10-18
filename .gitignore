@@ -1,0 +1,49 @@
+# =========================
+# DEPENDENCIAS
+node_modules/
+
+# =========================
+#  VARIABLES DE ENTORNO 
+.env
+
+# =========================
+# LOGS Y ARCHIVOS TEMPORALES
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs
+*.log
+
+# =========================
+# SISTEMAS OPERATIVOS
+.DS_Store
+Thumbs.db
+
+# =========================
+# COMPILADOS / BUILD (si en un futuro usas build)
+dist/
+build/
+.cache/
+.temp/
+.tmp/
+
+# =========================
+# CONFIGURACIÓN LOCAL DE EDITORES
+.vscode/
+.idea/
+*.swp
+
+# =========================
+# AMBIENTES / ENTORNOS
+.env.local
+.env.development
+.env.production
+.env.test
+
+# =========================
+#  OTRAS EXCLUSIONES COMUNES
+coverage/
+*.pid
+*.seed
+*.pid.lock
